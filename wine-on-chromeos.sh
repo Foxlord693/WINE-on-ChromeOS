@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo dpkg --add-architecture i386
-
+bash <(curl -sL https://raw.githubusercontent.com/cknermann/WINE-on-ChromeOS/main/wine-on-chromeos.sh)
 # Prepare temp directory
 sudo mkdir /root/.gnupg
 sudo chmod 700 /root/.gnupg
